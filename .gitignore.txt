@@ -1,0 +1,29 @@
+# 忽略所有编译和构建生成的目录
+[Bb]uild/
+[Bb]uild-*/
+[Dd]eploy*/
+[Oo]ut/
+[Xx]64/
+[Xx]86/
+
+# 忽略 Visual Studio 相关用户设置和临时文件
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+*.opendb
+
+# 忽略 CMake 生成的缓存和配置文件
+CMakeLists.txt.user
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+
+# 忽略所有编译生成的中间文件
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
