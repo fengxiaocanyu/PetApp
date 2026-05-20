@@ -27,3 +27,4 @@ CMakeFiles/
 *.dll
 *.so
 *.dylib
+*.user
