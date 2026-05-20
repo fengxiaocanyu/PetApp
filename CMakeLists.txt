@@ -17,7 +17,24 @@ set(CMAKE_AUTOUIC ON)
 # ============================================================
 # 查找 Qt 6
 # ============================================================
-set(CMAKE_PREFIX_PATH "E:/work/QT/6.8.3/msvc2022_64")
+# 设置最小CMake版本
+cmake_minimum_required(VERSION 3.16)
+project(PetApp VERSION 1.0.0 LANGUAGES CXX)
+
+# 设置C++标准
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 开启Qt的自动化工具 (MOC, UIC, RCC) 
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+# 让CMake能自动找到生成的包含目录
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+# 自动查找Qt6包
+find_package(Qt6 REQUIRED COMPONENTS Core Widgets) 
 find_package(Qt6 REQUIRED COMPONENTS
     Core
     Gui
