@@ -1,0 +1,9 @@
+{
+  "id": "com.petapp.ocr",
+  "name": "离线OCR",
+  "version": "1.0.0",
+  "requires_network": false,
+  "resource_weight": 5,
+  "executable": "skill_ocr.exe",
+  "description": "基于 tesseract 的离线文字识别"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "com.petapp.translate",
+  "name": "离线翻译",
+  "version": "1.0.0",
+  "requires_network": false,
+  "resource_weight": 2,
+  "executable": "skill_translate.exe",
+  "description": "基于本地词典的英汉翻译"
+}

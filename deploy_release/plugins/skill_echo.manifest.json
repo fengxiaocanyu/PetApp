@@ -1,0 +1,9 @@
+{
+    "id": "com.petapp.echo",
+    "name": "回显技能",
+    "version": "1.0.0",
+    "requires_network": false,
+    "resource_weight": 1,
+    "executable": "skill_echo.exe",
+    "description": "将输入文本加上 'Hello: ' 前缀返回"
+}

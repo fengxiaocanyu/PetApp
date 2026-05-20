@@ -1,0 +1,26 @@
+{
+    "appearance": {
+        "skin": "default",
+        "scale": 1.0,
+        "opacity": 1.0
+    },
+    "voice": {
+        "enabled": true,
+        "volume": 0.8,
+        "rate": 0.0
+    },
+    "network": {
+        "enabled": false,
+        "auto_detect": true
+    },
+    "performance": {
+        "mode": "balanced",
+        "heartbeat_interval_ms": 10000
+    },
+    "emotion": {
+        "initial_pleasure": 0.5,
+        "initial_curiosity": 0.5,
+        "initial_tiredness": 0.5,
+        "decay_per_beat": 0.02
+    }
+}

@@ -1,0 +1,9 @@
+D:/github/work/PetApp/build/CMakeFiles/PetApp.dir
+D:/github/work/PetApp/build/CMakeFiles/skill_echo.dir
+D:/github/work/PetApp/build/CMakeFiles/skill_translate.dir
+D:/github/work/PetApp/build/CMakeFiles/skill_ocr.dir
+D:/github/work/PetApp/build/CMakeFiles/skill_chat.dir
+D:/github/work/PetApp/build/CMakeFiles/edit_cache.dir
+D:/github/work/PetApp/build/CMakeFiles/rebuild_cache.dir
+D:/github/work/PetApp/build/CMakeFiles/PetApp_autogen_timestamp_deps.dir
+D:/github/work/PetApp/build/CMakeFiles/PetApp_autogen.dir

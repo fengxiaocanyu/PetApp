@@ -1,0 +1,9 @@
+{
+  "id": "com.petapp.chat",
+  "name": "离线对话",
+  "version": "1.0.0",
+  "requires_network": false,
+  "resource_weight": 1,
+  "executable": "skill_chat.exe",
+  "description": "基于预定义问答对的离线对话"
+}
